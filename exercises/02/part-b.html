@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Navbar Responsive</title>
+  </head>
+  <body>
+    <nav class="bg-gray-800 h-16 flex items-center px-8">
+      <!-- Logo -->
+      <img
+        class="block h-8 w-auto mr-8"
+        src="https://hamburgcodingschool.com/assets/images/hcs_light_32x.png"
+        alt="Workflow Logo"
+      />
+      <!-- Menu -->
+      <ul class="gap-6 flex-1 invisible md:visible md:flex">
+        <li>
+          <a
+            class="text-white font-medium bg-gray-900 p-2 rounded-md text-sm font-medium"
+            href="#"
+            >Dashboard</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-gray-300 hover:text-white font-medium hover:bg-gray-700 p-2 rounded-md text-sm font-medium"
+            href="#"
+            >Team</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-gray-300 hover:text-white font-medium hover:bg-gray-700 p-2 rounded-md text-sm font-medium"
+            href="#"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-gray-300 hover:text-white font-medium hover:bg-gray-700 p-2 rounded-md text-sm font-medium"
+            href="#"
+            >Calendar</a
+          >
+        </li>
+      </ul>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6 text-white justify-self-end md:hidden"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+    </nav>
+  </body>
+</html>
