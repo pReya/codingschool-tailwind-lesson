@@ -1,0 +1,8 @@
+.reveal figcaption {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.reveal figure img {
+  margin-bottom: 0;
+}
